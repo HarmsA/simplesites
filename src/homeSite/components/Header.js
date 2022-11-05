@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../../images/logos_transparent_blue.png';
+import logo from '../../images/SimpleSites-logo.png';
 
 const Header = () => {
 
