@@ -1,0 +1,19 @@
+
+.stepContainer {
+    margin-bottom: 4px;
+}
+.threestepbackground {
+    background-color: #0d6dfdbb;
+    border-radius: 150% 0 200% 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .switchorder div:nth-of-type(1) {
+        order:1;
+        padding-top: 10px;
+    }
+    .stepContainer {
+       margin-top: 50px; 
+    }
+
+}

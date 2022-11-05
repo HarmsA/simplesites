@@ -1,0 +1,10 @@
+
+section {
+    background-image: 'url("nereus-assets/img/bg/pattern1.png")';
+    background-repeat: 'no-repeat';
+    background-size: 'cover';
+}
+cardHeader {
+    padding-top: spacing(3);
+}
+  
