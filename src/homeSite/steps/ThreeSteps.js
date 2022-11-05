@@ -1,28 +1,21 @@
 import React from 'react';
-import { makeStyles } from '@mui/material';
-// import { emphasize, fade, darken, lighten } from '@mui/material/styles';
 
-// import clsx from 'clsx';
 
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
-import CardActionArea from '@mui/material/CardActionArea';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import classes from './threeSteps.module.css'
-import logo from '../../images/logos_transparent_blue.png';
 const photo1 = "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=475&q=80"
 
 const ThreeSteps = () => {
     return (
 <section>
 
-  <Container maxWidth="lg">
+  <Container maxWidth="lg" id='ThreeSteps'>
     <Box py={8} textAlign="center" className={classes.threestepbackground}>
       <Typography variant="overline" component="span">The New Internet</Typography>
-      <Typography variant="h4" component="h3">We specialize in getting small buisness a website online quickly. Not a buisness, no problem we work with individualls as well.</Typography>
+      <Typography variant="h4" component="h3">We specialize in getting small businesses a website online quickly. Not a business, no problem we work with individuals as well.</Typography>
     </Box>
     <Box pt={8} pb={10}>
       <Grid container spacing={6} mb-5 className={`${classes.stepContainer} ${classes.switchorder}`}>

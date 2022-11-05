@@ -1,6 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
 import {
-    Box,
     FormControl,
     FormHelperText,
     Input,
@@ -66,7 +65,7 @@ const ContactMe = () => {
         }, [snackbarOpen]);
 
     return (
-        <div className="contactMeContainer">
+        <div className="contactMeContainer" id="contactUs">
             <h2>Contact me:</h2>
             <p className='quotes'>"If you never contact me you will never know how I can benefit your company.” <em> - Adam Harms</em></p>
 

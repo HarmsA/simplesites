@@ -14,7 +14,7 @@ const Main = () => {
                     <span class="text-primary" contenteditable="false"> Simple Sites </span>
                     <span contenteditable="false">we make websites for our customers.</span>
                 </h2>
-                <p class="pe-lg-5 text-muted lh-lg mb-0" contenteditable="false">Making a website can be an overwhelming task, Simple Sites does all the heavy lifting for you. Our pre-made templates give you an allacart feel to provide you with the best website for your needs.</p>
+                <p class="pe-lg-5 text-muted lh-lg mb-0" contenteditable="false">Making a website can be an overwhelming task, Simple Sites does all the heavy lifting for you. Our pre-made templates give you a step by step approach to provide you with the best website for your needs.</p>
                 </div>
                 <div>
                 <a class="me-2 btn btn-primary" href="https://www.w3schools.com">FAQ</a>
