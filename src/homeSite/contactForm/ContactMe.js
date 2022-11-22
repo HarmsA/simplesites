@@ -71,7 +71,7 @@ const ContactMe = () => {
 
             <ul>
                 <li>
-                    <span className='contactMeList' onClick={handleClick}>Email me:</span> harms2a@gmail.com
+                    <span className='contactMeList' onClick={handleClick}>Email me using form below.</span>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/adam-harms/">Linkedin: Adam Harms</a>

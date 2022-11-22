@@ -1,10 +1,57 @@
 import React from 'react';
 import workTv from '../images/work-tv.png';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
+import Backdrop from '@mui/material/Backdrop';
 
+
+const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+};
 
 const Main = () => {
+    const [open, setOpen] = React.useState(true);
+    const handleOpen = () => setOpen(true);
+    const handleClose = () => setOpen(false);
     return (
         <section>
+            <div>
+                <Button onClick={handleOpen}>Open modal</Button>
+                <Modal
+                    open={open}
+                    onClose={handleClose}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                    closeAfterTransition
+                    BackdropComponent={Backdrop}
+                    BackdropProps={{
+                        timeout: 500,
+                    }}
+                >
+                    <Box sx={style}>
+                        <Typography id="modal-modal-title" variant="h6" component="h2">
+                            Thank you for coming to Simple Sites
+                        </Typography>
+                        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                            <div>
+                                <p>Please excuse the mess, we are currently under construction</p>
+                                <p>Over the next couple months we are planning to launch our website, templates, as well as all our functionality for users to quickly and easily build their company or personal 1-2 page website. </p>
+                                <p>Thanks for you patients and we look forward to working with you shortly.</p>
+                            </div>
+                        </Typography>
+                    </Box>
+                </Modal>
+            </div>
   <div class="container pb-5">
         <div class="row">
             <div class="col-12 col-lg-6 mx-auto text-center text-lg-start">

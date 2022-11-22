@@ -48,7 +48,7 @@ ul > li {
 .contactMeList:hover {
     cursor: pointer;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
     .contactMeContainer form {
         width: 80vw;
     }

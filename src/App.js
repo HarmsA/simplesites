@@ -10,13 +10,15 @@ import ThreeSteps from './homeSite/steps/ThreeSteps';
 import theme from './homeSite/theme/theme';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
+import BSHeader from './homeSite/components/BSHeader';
 
 
 const App = () => {
 
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
+      <BSHeader />
       <Main />
       {/* <About /> */}
       <ThemeProvider theme={theme}>

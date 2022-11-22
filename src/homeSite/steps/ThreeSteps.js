@@ -12,12 +12,12 @@ const ThreeSteps = () => {
     return (
 <section>
 
-  <Container maxWidth="lg" id='ThreeSteps'>
+  <Container maxWidth="lg" minWidth="lg" id='ThreeSteps'>
     <Box py={8} textAlign="center" className={classes.threestepbackground}>
       <Typography variant="overline" component="span">The New Internet</Typography>
-      <Typography variant="h4" component="h3">We specialize in getting small businesses a website online quickly. Not a business, no problem we work with individuals as well.</Typography>
+      <Typography variant="h4" component="h3">We specialize in getting your small businesses website online quickly. Not a business, no problem we work with individuals as well.</Typography>
     </Box>
-    <Box pt={8} pb={10}>
+    <Box pt={8} pb={10} className={classes.stepContainer}>
       <Grid container spacing={6} mb-5 className={`${classes.stepContainer} ${classes.switchorder}`}>
         <Grid item xs={12} md={6}>
           <Box display="flex" height="100%">
@@ -31,6 +31,7 @@ const ThreeSteps = () => {
         <Grid item xs={12} md={6}>
           {/* <Card> */}
             {/* <CardActionArea href="#"> */}
+              {/* <div className={classes.media}  /> */}
               <img className={classes.media} src={photo1} alt="Contact Us" />
             {/* </CardActionArea> */}
           {/* </Card> */}
